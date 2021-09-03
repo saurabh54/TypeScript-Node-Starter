@@ -13,5 +13,5 @@ permissions:
     group: root
 hooks:
   ApplicationStart:
-    - location: deploy_scripts/start.sh
+    - location: start.sh
       runas: root
